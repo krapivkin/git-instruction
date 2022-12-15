@@ -469,3 +469,6 @@ Author: John Smith</td> </tr> </table>
 Синтаксис «..» удобно использовать при сравнении веток. В следующем примере показана команда для вывода краткого обзора всех коммитов, которые включены в ветку some-feature и не включены в main.
 
 <table> <tr> <td bgcolor = #008000>git log --oneline main..some-feature</td> </tr> </table>
+git remote add origin https://github.com/krapivkin/git-instruction.git
+git branch -M main
+git push -u origin main
